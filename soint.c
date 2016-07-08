@@ -6,7 +6,7 @@ void main()
 long long n;
 int c=0;
 printf("enter an integer\n");
-scanf("%d",&n);
+scanf("%lld",&n);
 while(n!=0)
 {
 n/=10;
